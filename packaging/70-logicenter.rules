@@ -1,0 +1,9 @@
+# Device access is restricted to the active local desktop session.
+ACTION=="remove", GOTO="logicenter_end"
+# uinput can synthesize keyboard/mouse events. Trust applications with this
+# access; keep it restricted to the active local seat, never world-writable.
+SUBSYSTEM=="misc", KERNEL=="uinput", TAG+="uaccess"
+SUBSYSTEM!="hidraw", GOTO="logicenter_end"
+ATTRS{idVendor}=="046d", TAG+="uaccess"
+KERNELS=="0005:046D:*", TAG+="uaccess"
+LABEL="logicenter_end"

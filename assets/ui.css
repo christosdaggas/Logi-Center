@@ -1,0 +1,702 @@
+/* Logi Center workspace — light/dark and accent-color aware. */
+window {
+    background-color: @window_bg_color;
+}
+
+.content-column {
+    background-color: mix(@window_bg_color, @window_fg_color, 0.018);
+}
+
+.content-header {
+    min-height: 64px;
+    padding: 0 12px;
+    background-color: @window_bg_color;
+    border-bottom: 1px solid alpha(@window_fg_color, 0.08);
+    box-shadow: none;
+}
+
+.content-header .title {
+    font-size: 1.02em;
+    font-weight: 700;
+}
+
+.content-header .subtitle {
+    font-size: 0.78em;
+    opacity: 0.62;
+}
+
+.content-header .header-action {
+    min-height: 36px;
+    padding: 0 14px;
+    border-radius: 9px;
+    background-color: @accent_bg_color;
+    color: @accent_fg_color;
+    font-size: 0.90em;
+    font-weight: 650;
+}
+
+.header-action:hover {
+    background-color: shade(@accent_bg_color, 1.08);
+}
+
+.header-action:active {
+    background-color: shade(@accent_bg_color, 0.94);
+}
+
+.header-icon {
+    min-width: 36px;
+    min-height: 36px;
+    border-radius: 10px;
+}
+
+.sidebar-column {
+    background-color: mix(@window_bg_color, @window_fg_color, 0.025);
+    border-right: 1px solid alpha(@window_fg_color, 0.08);
+}
+
+.sidebar-header {
+    min-height: 78px;
+    padding: 10px 0;
+}
+
+.sidebar-brand-copy {
+    border-spacing: 0;
+}
+
+.sidebar-brand-name {
+    font-size: 1.04em;
+    font-weight: 750;
+}
+
+.sidebar-brand-caption,
+.sidebar-navigation-caption {
+    font-size: 0.68em;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    opacity: 0.48;
+}
+
+.sidebar-navigation-caption {
+    margin: 4px 16px 8px;
+}
+
+.sidebar-list {
+    background-color: transparent;
+}
+
+.sidebar-list > row {
+    background-color: transparent;
+    border-radius: 12px;
+    margin: 2px 0;
+    padding: 0;
+    transition: background-color 120ms ease;
+}
+
+.sidebar-list > row:hover {
+    background-color: alpha(@window_fg_color, 0.055);
+}
+
+.sidebar-list > row:selected {
+    background-color: alpha(@accent_bg_color, 0.15);
+    color: @window_fg_color;
+}
+
+.sidebar-list > row:selected .sidebar-device-title {
+    color: @accent_color;
+    font-weight: 700;
+}
+
+.sidebar-section-row,
+.sidebar-section-row:hover,
+.sidebar-section-row:selected {
+    background-color: transparent;
+}
+
+.sidebar-section {
+    font-size: 0.68em;
+    font-weight: 700;
+    letter-spacing: 0.075em;
+    opacity: 0.48;
+}
+
+.sidebar-pair {
+    min-width: 26px;
+    min-height: 26px;
+    padding: 0;
+    border-radius: 8px;
+    opacity: 0.60;
+}
+
+.sidebar-pair:hover {
+    opacity: 1;
+    background-color: alpha(@window_fg_color, 0.07);
+}
+
+.sidebar-slot-pill {
+    background-color: alpha(@window_fg_color, 0.065);
+    border-radius: 999px;
+    padding: 2px 8px;
+    font-size: 0.70em;
+    font-weight: 650;
+}
+
+.sidebar-device-icon {
+    background-color: alpha(@window_fg_color, 0.055);
+    border-radius: 10px;
+    min-width: 38px;
+    min-height: 38px;
+}
+
+.sidebar-list > row:selected .sidebar-device-icon {
+    background-color: alpha(@accent_bg_color, 0.18);
+    color: @accent_color;
+}
+
+.sidebar-device-title {
+    font-size: 0.88em;
+    font-weight: 550;
+}
+
+.receiver-footer-card {
+    background-color: @window_bg_color;
+    border: 1px solid alpha(@window_fg_color, 0.075);
+    border-radius: 14px;
+    padding: 12px;
+    box-shadow: 0 1px 2px alpha(black, 0.025);
+}
+
+.receiver-footer-card levelbar block {
+    min-height: 4px;
+}
+
+.status-pill {
+    border-radius: 999px;
+    padding: 3px 9px;
+    font-size: 0.72em;
+    font-weight: 700;
+}
+
+.status-pill.good {
+    background-color: alpha(@success_color, 0.13);
+    color: @success_color;
+}
+
+.status-pill.warn {
+    background-color: alpha(@warning_color, 0.14);
+    color: @warning_color;
+}
+
+.status-pill.low {
+    background-color: alpha(@error_color, 0.13);
+    color: @error_color;
+}
+
+.status-pill.offline {
+    background-color: alpha(@window_fg_color, 0.07);
+    color: alpha(@window_fg_color, 0.62);
+}
+
+.rail-button {
+    min-width: 48px;
+    min-height: 48px;
+    border-radius: 13px;
+    padding: 0;
+    background-color: transparent;
+}
+
+.rail-button:hover {
+    background-color: alpha(@window_fg_color, 0.07);
+}
+
+.rail-button.selected {
+    background-color: alpha(@accent_bg_color, 0.16);
+    color: @accent_color;
+}
+
+.app-footer {
+    min-height: 38px;
+    background-color: @window_bg_color;
+    border-top: 1px solid alpha(@window_fg_color, 0.07);
+}
+
+.device-heading {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.device-summary {
+    background-color: @window_bg_color;
+    border: 1px solid alpha(@window_fg_color, 0.08);
+    border-radius: 18px;
+    padding: 22px 24px;
+    box-shadow: 0 1px 3px alpha(black, 0.035);
+}
+
+.device-summary-icon {
+    min-width: 58px;
+    min-height: 58px;
+    border-radius: 16px;
+    background-color: alpha(@accent_bg_color, 0.12);
+    color: @accent_color;
+}
+
+.device-eyebrow,
+.camera-eyebrow {
+    font-size: 0.68em;
+    font-weight: 750;
+    letter-spacing: 0.09em;
+    color: alpha(@window_fg_color, 0.50);
+}
+
+.device-name {
+    font-size: 1.45em;
+    font-weight: 720;
+}
+
+.device-icon {
+    color: @accent_color;
+}
+
+.battery-good > trough > block.filled {
+    background-color: @success_color;
+}
+
+.battery-warn > trough > block.filled {
+    background-color: @warning_color;
+}
+
+.battery-low > trough > block.filled {
+    background-color: @error_color;
+}
+
+.battery-box levelbar block {
+    min-height: 5px;
+}
+
+.battery-label {
+    font-weight: 550;
+}
+
+.device-apply {
+    min-height: 42px;
+    border-radius: 11px;
+    padding: 0 18px;
+    font-weight: 700;
+}
+
+.device-tabs {
+    background-color: alpha(@window_fg_color, 0.045);
+    border-radius: 12px;
+    padding: 4px;
+    margin-top: 2px;
+}
+
+.device-tabs button {
+    min-height: 36px;
+    background: transparent;
+    border: none;
+    border-radius: 9px;
+    box-shadow: none;
+    padding: 0 18px;
+    color: alpha(@window_fg_color, 0.62);
+    font-size: 0.86em;
+    font-weight: 650;
+}
+
+.device-tabs button:checked {
+    background-color: @window_bg_color;
+    color: @accent_color;
+    box-shadow: 0 1px 3px alpha(black, 0.09);
+}
+
+.device-tabs button:hover:not(:checked) {
+    background-color: alpha(@window_fg_color, 0.045);
+    color: @window_fg_color;
+}
+
+.device-settings preferencesgroup .heading {
+    color: alpha(@window_fg_color, 0.58);
+    font-size: 0.74em;
+    font-weight: 750;
+    letter-spacing: 0.075em;
+    margin: 0 2px 10px;
+}
+
+.device-settings preferencesgroup .description {
+    margin: 0 2px 12px;
+    font-size: 0.82em;
+    line-height: 1.4;
+}
+
+.device-settings .boxed-list {
+    background-color: @window_bg_color;
+    border: 1px solid alpha(@window_fg_color, 0.075);
+    border-radius: 16px;
+    padding: 0 18px;
+    box-shadow: 0 1px 2px alpha(black, 0.025);
+}
+
+.device-settings .boxed-list > row {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid alpha(@window_fg_color, 0.065);
+    border-radius: 0;
+    box-shadow: none;
+    padding: 10px 0;
+}
+
+.device-settings .boxed-list > row:last-child {
+    border-bottom: none;
+}
+
+.device-settings .boxed-list > row:focus,
+.device-settings .boxed-list > row:focus-visible,
+.device-settings .boxed-list > row.focused {
+    outline: none;
+}
+
+.device-settings row > box.header {
+    min-height: 48px;
+    padding: 0;
+}
+
+.device-settings row .title {
+    color: alpha(@window_fg_color, 0.90);
+    font-size: 0.92em;
+    font-weight: 550;
+}
+
+.device-settings row .subtitle {
+    color: alpha(@window_fg_color, 0.56);
+    font-size: 0.82em;
+}
+
+.device-settings row > box.header > box.suffixes {
+    min-width: 240px;
+    margin-left: 20px;
+}
+
+.device-settings row > box.header > box.title {
+    min-width: 200px;
+}
+
+.device-settings row.combo > box.header > box.suffixes {
+    min-width: 210px;
+}
+
+.device-settings row spinbutton {
+    min-height: 36px;
+}
+
+.device-settings entry,
+.device-settings dropdown,
+.device-settings spinbutton {
+    border-radius: 9px;
+}
+
+.device-settings scale value {
+    color: alpha(@window_fg_color, 0.72);
+    font-size: 0.82em;
+    font-weight: 650;
+}
+
+.device-settings scale trough {
+    min-height: 5px;
+}
+
+.device-settings switch {
+    border-radius: 999px;
+}
+
+.device-information {
+    background-color: @window_bg_color;
+    border: 1px solid alpha(@window_fg_color, 0.075);
+    border-radius: 16px;
+    padding: 16px 18px;
+    color: alpha(@window_fg_color, 0.82);
+    font-size: 0.88em;
+}
+
+.device-information > box > label,
+.device-information > box > box > label {
+    font-weight: 650;
+}
+
+.offline-notice {
+    background-color: alpha(@warning_color, 0.10);
+    color: @warning_color;
+    border: 1px solid alpha(@warning_color, 0.20);
+    border-radius: 12px;
+    padding: 12px 16px;
+}
+
+.remap-selector {
+    min-width: 390px;
+    padding: 4px 0;
+}
+
+.remap-option {
+    min-height: 34px;
+    border-radius: 9px;
+    padding: 0 12px;
+    background-color: alpha(@window_fg_color, 0.045);
+    border: 1px solid alpha(@window_fg_color, 0.08);
+    box-shadow: none;
+    font-size: 0.78em;
+    font-weight: 600;
+}
+
+.remap-option:hover {
+    background-color: alpha(@window_fg_color, 0.08);
+}
+
+.remap-option:checked {
+    background-color: alpha(@accent_bg_color, 0.15);
+    border-color: alpha(@accent_bg_color, 0.48);
+    color: @accent_color;
+}
+
+.divert-chip {
+    background-color: alpha(@window_fg_color, 0.035);
+    border: 1px solid alpha(@window_fg_color, 0.10);
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 10px 12px;
+    font-size: 0.88em;
+    font-weight: 550;
+}
+
+.divert-chip:hover {
+    background-color: alpha(@window_fg_color, 0.07);
+    border-color: alpha(@window_fg_color, 0.18);
+}
+
+.divert-chip:checked {
+    background-color: alpha(@accent_bg_color, 0.13);
+    border-color: alpha(@accent_bg_color, 0.48);
+    color: @accent_color;
+}
+
+.profile-card {
+    background-color: @window_bg_color;
+    border: 1px solid alpha(@window_fg_color, 0.075);
+    border-radius: 12px;
+    padding: 12px 14px;
+}
+
+.profile-value {
+    font-size: 0.94em;
+    font-weight: 650;
+}
+
+.quick-presets {
+    padding: 2px 0;
+}
+
+.quick-presets flowboxchild > button {
+    min-height: 34px;
+    border-radius: 9px;
+    padding: 0 14px;
+    background-color: alpha(@accent_bg_color, 0.09);
+    color: @accent_color;
+    font-size: 0.82em;
+    font-weight: 650;
+}
+
+.quick-presets flowboxchild > button:hover {
+    background-color: alpha(@accent_bg_color, 0.16);
+}
+
+.profile-manager-button {
+    min-height: 42px;
+    border-radius: 8px;
+    padding: 0 12px;
+    font-size: 0.88em;
+    font-weight: 600;
+}
+
+.profile-manager-button:hover {
+    background-color: alpha(@window_fg_color, 0.045);
+}
+
+.actions-footer {
+    margin-top: 4px;
+    margin-bottom: 18px;
+}
+
+.actions-footer > label {
+    margin: 0 2px 10px;
+}
+
+.action-diagram {
+    background-color: @window_bg_color;
+    border: 1px solid alpha(@window_fg_color, 0.075);
+    border-radius: 16px;
+    padding: 8px 12px 14px;
+}
+
+.mouse-hotspot {
+    min-width: 46px;
+    min-height: 36px;
+    border-radius: 10px;
+    padding: 0;
+    background-color: alpha(@window_fg_color, 0.075);
+    border: 1px solid alpha(@window_fg_color, 0.08);
+    box-shadow: none;
+    font-size: 0.84em;
+    font-weight: 700;
+}
+
+.mouse-hotspot:hover {
+    background-color: alpha(@accent_bg_color, 0.13);
+    border-color: alpha(@accent_bg_color, 0.28);
+}
+
+.mouse-hotspot.selected {
+    background-color: alpha(@accent_bg_color, 0.18);
+    border-color: alpha(@accent_bg_color, 0.55);
+    color: @accent_color;
+}
+
+.camera-settings-page {
+    background-color: transparent;
+}
+
+.camera-hero {
+    background-color: @window_bg_color;
+    border: 1px solid alpha(@window_fg_color, 0.075);
+    border-radius: 18px;
+    padding: 20px 22px;
+}
+
+.camera-device-path {
+    color: alpha(@window_fg_color, 0.62);
+    font-size: 0.82em;
+}
+
+.camera-device-status {
+    color: alpha(@window_fg_color, 0.52);
+    font-size: 0.76em;
+    line-height: 1.35;
+}
+
+.camera-preview-surface {
+    background-color: #11151b;
+    color: #c6ced8;
+    border-radius: 14px;
+}
+
+#camera-preview-image {
+    border-radius: 14px;
+}
+
+.camera-preview-toolbar {
+    padding: 0 2px 2px;
+}
+
+.camera-preview-status {
+    color: alpha(@window_fg_color, 0.64);
+    font-size: 0.78em;
+}
+
+.camera-preview-button {
+    min-height: 38px;
+    border-radius: 10px;
+    padding: 0 14px;
+    font-size: 0.84em;
+    font-weight: 650;
+}
+
+.camera-preview-card {
+    background-color: @window_bg_color;
+    border: 1px solid alpha(@window_fg_color, 0.075);
+    border-radius: 18px;
+    padding: 14px;
+}
+
+.camera-settings-card {
+    background-color: @window_bg_color;
+    border: 1px solid alpha(@window_fg_color, 0.075);
+    border-radius: 16px;
+}
+
+.camera-settings-page .camera-settings-card .boxed-list {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+}
+
+.camera-settings-page .camera-settings-card .boxed-list > row {
+    padding: 10px 0;
+    border-bottom: 1px solid alpha(@window_fg_color, 0.065);
+}
+
+.camera-settings-page .camera-settings-card .boxed-list > row:last-child {
+    border-bottom: none;
+}
+
+.camera-settings-page button {
+    min-height: 38px;
+}
+
+.camera-presets {
+    background-color: @window_bg_color;
+    border: 1px solid alpha(@window_fg_color, 0.075);
+    border-radius: 14px;
+    padding: 14px;
+}
+
+.theme-selector {
+    border-radius: 50%;
+    border: 2px solid alpha(@window_fg_color, 0.3);
+    padding: 0;
+    margin: 0;
+}
+
+.theme-default {
+    background: conic-gradient(from 135deg, #ffffff 0deg, #ffffff 180deg, #1e1e1e 180deg, #1e1e1e 360deg);
+    background-size: 100% 100%;
+    background-origin: border-box;
+}
+
+.theme-light {
+    background-color: #ffffff;
+    border-color: alpha(@window_fg_color, 0.15);
+}
+
+.theme-dark {
+    background-color: #1e1e1e;
+}
+
+.theme-button {
+    padding: 4px;
+    min-width: 52px;
+    min-height: 52px;
+}
+
+.theme-button:checked {
+    background-color: alpha(@accent_color, 0.12);
+    border-radius: 50%;
+}
+
+.theme-button:checked .theme-selector {
+    border-color: @accent_color;
+    border-width: 3px;
+}
+
+.theme-check {
+    color: @accent_color;
+    background-color: @window_bg_color;
+    border-radius: 50%;
+    padding: 2px;
+    -gtk-icon-size: 16px;
+}
+
+.menu-row {
+    min-height: 38px;
+    padding: 6px 12px;
+    border-radius: 9px;
+}

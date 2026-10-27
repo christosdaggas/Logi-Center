@@ -1,0 +1,143 @@
+General: Γενικά
+Settings: Ρυθμίσεις
+Language: Γλώσσα
+App language: Γλώσσα εφαρμογής
+Automatic (system language): Αυτόματα (γλώσσα συστήματος)
+Language changes take effect the next time you open the app.: Η αλλαγή γλώσσας εφαρμόζεται στην επόμενη εκκίνηση της εφαρμογής.
+Startup: Εκκίνηση
+Launch behavior: Τρόπος εκκίνησης
+Start manually: Χειροκίνητη εκκίνηση
+At login, in the tray: Με τη σύνδεση, στο tray
+At login, with a window: Με τη σύνδεση, με ανοιχτό παράθυρο
+Without a tray extension, the app opens a window so you can still access it.: Χωρίς επέκταση tray, ανοίγει το παράθυρο ώστε η εφαρμογή να παραμένει προσβάσιμη.
+Save settings: Αποθήκευση ρυθμίσεων
+Settings saved: Οι ρυθμίσεις αποθηκεύτηκαν
+Settings saved. Restart the app to apply the new language.: Οι ρυθμίσεις αποθηκεύτηκαν. Κλείστε την εφαρμογή με Έξοδος και ανοίξτε την ξανά για τη νέα γλώσσα.
+Could not save settings: Αποτυχία αποθήκευσης ρυθμίσεων
+v{version} available: Διαθέσιμη η v{version}
+Buttons & Keys: Κουμπιά και πλήκτρα
+Advanced: Για προχωρημένους
+Apply: Εφαρμογή
+Apply Changes: Εφαρμογή αλλαγών
+Online: Συνδεδεμένο
+Offline: Εκτός σύνδεσης
+Ready: Έτοιμο
+Starting…: Εκκίνηση…
+Scanning…: Αναζήτηση…
+Refresh devices: Ανανέωση συσκευών
+Main menu: Κύριο μενού
+Toggle device list: Εμφάνιση/απόκρυψη συσκευών
+Logitech device manager: Διαχείριση συσκευών Logitech
+Devices: Συσκευές
+Select a device: Επιλέξτε συσκευή
+Choose a Logitech device from the sidebar to view its details and settings.: Επιλέξτε μια συσκευή Logitech από την πλαϊνή στήλη για πληροφορίες και ρυθμίσεις.
+Battery not available: Μη διαθέσιμη μπαταρία
+Device information: Πληροφορίες συσκευής
+Device type: Τύπος συσκευής
+Receiver: Δέκτης
+Slot: Θέση
+Hardware ID: Αναγνωριστικό υλικού
+Serial number: Σειριακός αριθμός
+Device path: Διαδρομή συσκευής
+HID++ features: Λειτουργίες HID++
+This device is offline. Connect it to change its settings.: Η συσκευή είναι εκτός σύνδεσης. Συνδέστε την για να αλλάξετε ρυθμίσεις.
+Pointer and Scrolling: Δείκτης και κύλιση
+Sensitivity (DPI): Ευαισθησία (DPI)
+Smooth scrolling: Ομαλή κύλιση
+Invert scroll direction: Αντιστροφή κύλισης
+High-resolution wheel: Τροχός υψηλής ανάλυσης
+Divert wheel to HID++: Ανακατεύθυνση τροχού στο HID++
+Ratcheted wheel mode: Κλιμακωτή κύλιση
+SmartShift speed: Ταχύτητα SmartShift
+SmartShift torque: Αντίσταση SmartShift
+Active wireless host: Ενεργός ασύρματος υπολογιστής
+Connection: Σύνδεση
+Wheel Events: Συμβάντα τροχού
+Button and Key Actions: Ενέργειες κουμπιών και πλήκτρων
+HID++ Diversion: Ανακατεύθυνση HID++
+Send HID++ events instead of normal button or key presses.: Αποστολή συμβάντων HID++ αντί για κανονικά πατήματα κουμπιών ή πλήκτρων.
+Keyboard: Πληκτρολόγιο
+Swap Fn keys: Εναλλαγή πλήκτρων Fn
+Use F1–F12 as media keys without holding Fn: Χρήση F1–F12 ως πλήκτρα πολυμέσων χωρίς το Fn
+Backlight: Φωτισμός πληκτρολογίου
+Backlight enabled: Ενεργός φωτισμός
+Backlight mode: Λειτουργία φωτισμού
+Backlight level: Ένταση φωτισμού
+Delay — hands out (s): Καθυστέρηση απομάκρυνσης (s)
+Delay — hands in (s): Καθυστέρηση παρουσίας (s)
+Delay — powered (s): Καθυστέρηση τροφοδοσίας (s)
+Automatic: Αυτόματα
+Manual: Χειροκίνητα
+Disabled Keys: Απενεργοποιημένα πλήκτρα
+Saved Profile: Αποθηκευμένο προφίλ
+Apply changes to this device: Εφαρμογή αλλαγών στη συσκευή
+Cancel: Ακύρωση
+Close: Κλείσιμο
+Done: Ολοκλήρωση
+About Logi Center: Σχετικά με το Logi Center
+Show Logi Center: Εμφάνιση Logi Center
+Refresh Devices: Ανανέωση συσκευών
+Quit: Έξοδος
+Battery unavailable: Μη διαθέσιμη μπαταρία
+Percentage unavailable: Μη διαθέσιμο ποσοστό
+Charging: Φόρτιση
+Fully charged: Πλήρης φόρτιση
+Very low battery: Πολύ χαμηλή μπαταρία
+Low battery: Χαμηλή μπαταρία
+Saved device settings: Αποθηκευμένες ρυθμίσεις συσκευής
+Use Apply to save these options. Devices need a stable serial number.: Αποθηκεύστε τις επιλογές με Εφαρμογή. Απαιτείται σταθερός σειριακός αριθμός συσκευής.
+Remember this device: Απομνημόνευση συσκευής
+Restore saved settings after reconnecting or waking up: Επαναφορά ρυθμίσεων μετά από επανασύνδεση ή αναστολή
+DPI presets: Προεπιλογές DPI
+Enter 1 to 8 supported DPI values separated by commas: Εισαγάγετε 1 έως 8 υποστηριζόμενες τιμές DPI, χωρισμένες με κόμματα
+Custom actions: Προσαρμοσμένες ενέργειες
+Configure shortcuts and gestures: Ρύθμιση συντομεύσεων και χειρονομιών
+Shortcuts and gestures: Συντομεύσεις και χειρονομίες
+Optional. Shortcuts require write access to /dev/uinput. DPI cycling does not. No system permissions are changed.: Προαιρετικό. Οι συντομεύσεις απαιτούν πρόσβαση εγγραφής στο /dev/uinput, η εναλλαγή DPI όχι. Δεν αλλάζουν δικαιώματα συστήματος.
+Enable custom actions: Ενεργοποίηση προσαρμοσμένων ενεργειών
+Button: Κουμπί
+Tap action: Ενέργεια πατήματος
+Action: Ενέργεια
+No action: Καμία ενέργεια
+Keyboard shortcut: Συντόμευση πληκτρολογίου
+Cycle DPI presets: Εναλλαγή προεπιλογών DPI
+Shortcut: Συντόμευση
+Record shortcut: Καταγραφή συντόμευσης
+Remove shortcut: Αφαίρεση συντόμευσης
+Hold and move: Κρατήστε πατημένο και μετακινήστε
+Hold the selected button and move in one direction. One gesture per hold; release before the next. Unassigned actions do nothing.: Κρατήστε πατημένο το κουμπί και κινηθείτε προς μία κατεύθυνση. Μία χειρονομία ανά πάτημα. Οι μη ορισμένες ενέργειες δεν εκτελούν τίποτα.
+Up: Πάνω
+Down: Κάτω
+Left: Αριστερά
+Right: Δεξιά
+Save custom actions: Αποθήκευση ενεργειών
+"Press your shortcut now. Escape cancels.\nOnly keys in this popup are recorded.": "Πατήστε τη συντόμευση. Το Escape ακυρώνει.\nΚαταγράφονται μόνο πλήκτρα σε αυτό το παράθυρο."
+Apply your pending settings before configuring custom actions.: Εφαρμόστε τις εκκρεμείς ρυθμίσεις πριν διαμορφώσετε τις προσαρμοσμένες ενέργειες.
+Custom actions active for {device}: Ενεργές προσαρμοσμένες ενέργειες για {device}
+"Custom actions inactive for {device}: {error}": "Ανενεργές προσαρμοσμένες ενέργειες για {device}: {error}"
+Use comma-separated DPI numbers: Χρησιμοποιήστε αριθμούς DPI χωρισμένους με κόμματα
+DPI {value} is not supported by this device: Η συσκευή δεν υποστηρίζει DPI {value}
+Choose between 1 and 8 DPI presets: Επιλέξτε από 1 έως 8 προεπιλογές DPI
+Device Profiles: Προφίλ συσκευών
+Device profiles: Προφίλ συσκευών
+Manage profiles and application rules: Διαχείριση προφίλ και κανόνων εφαρμογών
+Gaming, Cameras, Lights and Audio: Παιχνίδια, κάμερες, φωτισμός και ήχος
+Gaming, cameras, lights and audio: Παιχνίδια, κάμερες, φωτισμός και ήχος
+Diagnostics and Battery: Διαγνωστικά και μπαταρία
+Diagnostics and battery: Διαγνωστικά και μπαταρία
+Manage Receivers: Διαχείριση δεκτών
+Receiver management: Διαχείριση δεκτών
+Switch Devices to Another Computer: Μεταφορά συσκευών σε άλλον υπολογιστή
+Switch devices to another computer: Μεταφορά συσκευών σε άλλον υπολογιστή
+Hardware Easy-Switch channels: Κανάλια υλικού Easy-Switch
+Pair a device: Σύζευξη συσκευής
+Pair: Σύζευξη
+Unpair: Κατάργηση σύζευξης
+Switch now?: Αλλαγή τώρα;
+Switch: Αλλαγή
+Destination channel (1–3): Κανάλι προορισμού (1–3)
+Switch selected devices…: Μεταφορά επιλεγμένων συσκευών…
+No receiver detected: Δεν εντοπίστηκε δέκτης
+Control center: Κέντρο ελέγχου
+Shortcuts and workflows: Συντομεύσεις και ροές εργασίας
+Switch computers: Εναλλαγή υπολογιστών

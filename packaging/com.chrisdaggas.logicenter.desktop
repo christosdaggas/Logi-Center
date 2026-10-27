@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Logi Center
+Comment=Manage Logitech mice, keyboards and cameras
+Exec=logicenter
+Icon=com.chrisdaggas.logicenter
+Terminal=false
+Categories=Settings;HardwareSettings;GTK;
+Keywords=Logitech;mouse;keyboard;camera;battery;Bolt;Unifying;
+StartupNotify=true
+StartupWMClass=com.chrisdaggas.logicenter

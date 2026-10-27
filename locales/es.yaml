@@ -1,0 +1,143 @@
+General: General
+Settings: Ajustes
+Language: Idioma
+App language: Idioma de la aplicación
+Automatic (system language): Automático (idioma del sistema)
+Language changes take effect the next time you open the app.: El cambio de idioma se aplicará al reiniciar la aplicación.
+Startup: Inicio
+Launch behavior: Comportamiento de inicio
+Start manually: Iniciar manualmente
+At login, in the tray: Al iniciar sesión, en la bandeja
+At login, with a window: Al iniciar sesión, con una ventana
+Without a tray extension, the app opens a window so you can still access it.: Sin una extensión de bandeja, se abre una ventana para mantener la aplicación accesible.
+Save settings: Guardar ajustes
+Settings saved: Ajustes guardados
+Settings saved. Restart the app to apply the new language.: Ajustes guardados. Cierra y vuelve a abrir la aplicación para aplicar el nuevo idioma.
+Could not save settings: No se pudieron guardar los ajustes
+v{version} available: v{version} disponible
+Buttons & Keys: Botones y teclas
+Advanced: Avanzado
+Apply: Aplicar
+Apply Changes: Aplicar cambios
+Online: En línea
+Offline: Sin conexión
+Ready: Listo
+Starting…: Iniciando…
+Scanning…: Buscando…
+Refresh devices: Actualizar dispositivos
+Main menu: Menú principal
+Toggle device list: Mostrar u ocultar lista de dispositivos
+Logitech device manager: Administrador de dispositivos Logitech
+Devices: Dispositivos
+Select a device: Seleccione un dispositivo
+Choose a Logitech device from the sidebar to view its details and settings.: Elija un dispositivo Logitech en la barra lateral para ver sus detalles y ajustes.
+Battery not available: Batería no disponible
+Device information: Información del dispositivo
+Device type: Tipo de dispositivo
+Receiver: Receptor
+Slot: Ranura
+Hardware ID: ID de hardware
+Serial number: Número de serie
+Device path: Ruta del dispositivo
+HID++ features: Funciones HID++
+This device is offline. Connect it to change its settings.: Este dispositivo está sin conexión. Conéctelo para cambiar sus ajustes.
+Pointer and Scrolling: Puntero y desplazamiento
+Sensitivity (DPI): Sensibilidad (DPI)
+Smooth scrolling: Desplazamiento suave
+Invert scroll direction: Invertir dirección de desplazamiento
+High-resolution wheel: Rueda de alta resolución
+Divert wheel to HID++: Desviar rueda a HID++
+Ratcheted wheel mode: Modo de rueda con clics
+SmartShift speed: Velocidad SmartShift
+SmartShift torque: Fuerza SmartShift
+Active wireless host: Equipo inalámbrico activo
+Connection: Conexión
+Wheel Events: Eventos de rueda
+Button and Key Actions: Acciones de botones y teclas
+HID++ Diversion: Desvío HID++
+Send HID++ events instead of normal button or key presses.: Enviar eventos HID++ en lugar de pulsaciones normales de botones o teclas.
+Keyboard: Teclado
+Swap Fn keys: Intercambiar teclas Fn
+Use F1–F12 as media keys without holding Fn: Usar F1–F12 como teclas multimedia sin mantener pulsada Fn
+Backlight: Retroiluminación
+Backlight enabled: Retroiluminación activada
+Backlight mode: Modo de retroiluminación
+Backlight level: Nivel de retroiluminación
+Delay — hands out (s): Retardo — manos fuera (s)
+Delay — hands in (s): Retardo — manos dentro (s)
+Delay — powered (s): Retardo — alimentación (s)
+Automatic: Automático
+Manual: Manual
+Disabled Keys: Teclas desactivadas
+Saved Profile: Perfil guardado
+Apply changes to this device: Aplicar cambios a este dispositivo
+Cancel: Cancelar
+Close: Cerrar
+Done: Hecho
+About Logi Center: Acerca de Logi Center
+Show Logi Center: Mostrar Logi Center
+Refresh Devices: Actualizar dispositivos
+Quit: Salir
+Battery unavailable: Batería no disponible
+Percentage unavailable: Porcentaje no disponible
+Charging: Cargando
+Fully charged: Carga completa
+Very low battery: Batería muy baja
+Low battery: Batería baja
+Saved device settings: Ajustes guardados del dispositivo
+Use Apply to save these options. Devices need a stable serial number.: Use Aplicar para guardar estas opciones. Se requiere un número de serie estable.
+Remember this device: Recordar este dispositivo
+Restore saved settings after reconnecting or waking up: Restaurar los ajustes al reconectar o reanudar
+DPI presets: Valores DPI predefinidos
+Enter 1 to 8 supported DPI values separated by commas: Introduzca de 1 a 8 valores DPI compatibles separados por comas
+Custom actions: Acciones personalizadas
+Configure shortcuts and gestures: Configurar atajos y gestos
+Shortcuts and gestures: Atajos y gestos
+Optional. Shortcuts require write access to /dev/uinput. DPI cycling does not. No system permissions are changed.: Opcional. Los atajos requieren acceso de escritura a /dev/uinput; cambiar DPI no. No se modifican los permisos del sistema.
+Enable custom actions: Activar acciones personalizadas
+Button: Botón
+Tap action: Acción al pulsar
+Action: Acción
+No action: Ninguna acción
+Keyboard shortcut: Atajo de teclado
+Cycle DPI presets: Alternar valores DPI
+Shortcut: Atajo
+Record shortcut: Grabar atajo
+Remove shortcut: Eliminar atajo
+Hold and move: Mantener pulsado y mover
+Hold the selected button and move in one direction. One gesture per hold; release before the next. Unassigned actions do nothing.: Mantenga pulsado el botón y muévase en una dirección. Un gesto por pulsación; suelte antes del siguiente. Las acciones sin asignar no hacen nada.
+Up: Arriba
+Down: Abajo
+Left: Izquierda
+Right: Derecha
+Save custom actions: Guardar acciones
+"Press your shortcut now. Escape cancels.\nOnly keys in this popup are recorded.": "Pulse el atajo. Escape cancela.\nSolo se graban las teclas en este diálogo."
+Apply your pending settings before configuring custom actions.: Aplique los ajustes pendientes antes de configurar acciones personalizadas.
+Custom actions active for {device}: Acciones personalizadas activas para {device}
+"Custom actions inactive for {device}: {error}": "Acciones personalizadas inactivas para {device}: {error}"
+Use comma-separated DPI numbers: Use números DPI separados por comas
+DPI {value} is not supported by this device: Este dispositivo no admite DPI {value}
+Choose between 1 and 8 DPI presets: Elija entre 1 y 8 valores DPI
+Device Profiles: Perfiles de dispositivos
+Device profiles: Perfiles de dispositivos
+Manage profiles and application rules: Gestionar perfiles y reglas de aplicaciones
+Gaming, Cameras, Lights and Audio: Juegos, cámaras, luces y audio
+Gaming, cameras, lights and audio: Juegos, cámaras, luces y audio
+Diagnostics and Battery: Diagnóstico y batería
+Diagnostics and battery: Diagnóstico y batería
+Manage Receivers: Gestionar receptores
+Receiver management: Gestión de receptores
+Switch Devices to Another Computer: Cambiar dispositivos a otro ordenador
+Switch devices to another computer: Cambiar dispositivos a otro ordenador
+Hardware Easy-Switch channels: Canales de hardware Easy-Switch
+Pair a device: Emparejar un dispositivo
+Pair: Emparejar
+Unpair: Desemparejar
+Switch now?: ¿Cambiar ahora?
+Switch: Cambiar
+Destination channel (1–3): Canal de destino (1–3)
+Switch selected devices…: Cambiar dispositivos seleccionados…
+No receiver detected: No se detectó ningún receptor
+Control center: Centro de control
+Shortcuts and workflows: Atajos y flujos de trabajo
+Switch computers: Cambiar de ordenador

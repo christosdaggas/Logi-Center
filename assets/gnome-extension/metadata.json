@@ -1,0 +1,8 @@
+{
+  "uuid": "logicenter-context@chrisdaggas.com",
+  "name": "Logi Center application profiles",
+  "description": "Read-only foreground application identity for Logi Center per-application profiles. Does not capture keystrokes or expose window titles.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "version": 1,
+  "url": "https://chrisdaggas.com"
+}
